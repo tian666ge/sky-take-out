@@ -7,7 +7,8 @@ import java.io.Serializable;
 @Data
 public class EmployeeDTO implements Serializable {
 
-    private Long id;
+    //自增项可以去掉
+//    private Long id;
 
     private String username;
 

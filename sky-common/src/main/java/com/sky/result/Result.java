@@ -7,6 +7,8 @@ import java.io.Serializable;
 /**
  * 后端统一返回结果
  * @param <T>
+ *     public class Result<T>：这声明了一个名为 Result 的类，它具有类型参数 T。
+ *     T 是创建该类的对象时将指定的类型的占位符。
  */
 @Data
 public class Result<T> implements Serializable {
